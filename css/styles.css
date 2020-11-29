@@ -1,0 +1,119 @@
+body {
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    background-image: url(../img/bg-pattern-top-desktop.svg), url(../img/bg-pattern-bottom-desktop.svg);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+}
+
+
+.container-fluid {
+    padding: 75px 12% 20px;
+}
+
+.top-header {
+    font-size: 48px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    margin-right: 20%;
+}
+
+.top-text {
+    color: hsl(303, 10%, 53%);
+    margin: 2% 20% 5% 0;
+}
+
+.rating {
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 8px;
+    text-align: center;
+    padding: 2%;
+    width: 80%;
+    margin: 3%;
+    position: relative;
+}
+
+.star {
+    margin: 3px;
+    padding: 0%;
+    
+}
+
+.stars {
+    float: left;
+}
+
+.review-card {
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.review-text {
+    text-align: center;
+    margin: auto;
+    color: hsl(300, 43%, 22%);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.guru {
+    left: 50px;
+}
+
+.best-tech {
+    left: 100px;
+}
+
+.buyer-picture {
+    border-radius: 100%;
+    width: 14%;
+    float: left;
+    margin: 4% 10% 4% 0;
+}
+
+.card {
+    border-radius: 0.7rem;
+}
+
+.card-body {
+    border: none;
+    border-radius: 0.7rem;
+    background-color: hsl(300, 43%, 22%);
+    width: 102%;
+}
+
+.card-title {
+    margin-bottom: 0;
+    color: hsl(300, 24%, 96%);
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 1.7%;
+    padding-top: 15px;
+
+}
+.card-buyer {
+    margin-bottom: 10%;
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+    font-size: 13px;;
+}
+
+.testimonial {
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    line-height: 20px;
+    padding-top: 2px;
+}
+
+.irene {
+    top: 20px;
+}
+
+.anne {
+    top: 40px;
+}
+
+.attribution{
+    margin-top: 14%;
+    text-align: center;
+  }
